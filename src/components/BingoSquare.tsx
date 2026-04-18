@@ -16,7 +16,9 @@ export function BingoSquare({ square, isWinning, onClick }: BingoSquareProps) {
       : 'border-neon-blue/40 bg-[#111d34] text-text'
     : 'border-[#ffffff10] bg-[#081125] text-text-muted hover:border-neon-blue/40 hover:bg-[#0d1730]';
 
-  const freeSpaceClasses = square.isFreeSpace ? 'font-semibold text-neon-pink' : '';
+  const freeSpaceClasses = square.isFreeSpace
+    ? 'bg-[#10203a] border-neon-cyan/30 text-neon-cyan shadow-[0_0_18px_rgba(123,240,255,0.12)]'
+    : '';
 
   return (
     <button

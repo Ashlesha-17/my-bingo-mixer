@@ -10,10 +10,10 @@ export function StartScreen({ onStart }: StartScreenProps) {
 
       <div className="relative z-10 w-full max-w-md space-y-8">
         <div className="space-y-3 text-center">
-          <p className="text-sm uppercase tracking-[0.4em] text-text-muted">Cyberpunk Neon Mix</p>
-          <h1 className="text-4xl font-semibold tracking-tight text-text sm:text-5xl">Bingo Mixer</h1>
+          <p className="text-sm uppercase tracking-[0.4em] text-text-muted">Tech Life Bingo</p>
+          <h1 className="text-4xl font-semibold tracking-tight text-text sm:text-5xl">Developer Edition</h1>
           <p className="text-base leading-7 text-text-muted">
-            Find people who match the questions, then collect a neon line to win.
+            Match fellow coders, modern tools, and office struggles in a fun dev-themed bingo board.
           </p>
         </div>
 

@@ -16,7 +16,7 @@ export function BingoModal({ onDismiss }: BingoModalProps) {
 
         <button
           onClick={onDismiss}
-          className="mt-6 inline-flex w-full items-center justify-center rounded-3xl bg-neon-blue px-5 py-3 text-sm font-semibold text-bg shadow-[0_16px_48px_rgba(116,214,255,0.18)] transition duration-300 hover:scale-[1.01]"
+          className="mt-6 inline-flex w-full items-center justify-center rounded-3xl bg-[linear-gradient(135deg,var(--color-neon-blue),var(--color-neon-pink))] px-5 py-3 text-sm font-semibold text-bg shadow-[0_16px_48px_rgba(116,214,255,0.18)] transition duration-200 hover:scale-[1.01] hover:shadow-[0_18px_52px_rgba(116,214,255,0.22)]"
         >
           Keep Playing
         </button>

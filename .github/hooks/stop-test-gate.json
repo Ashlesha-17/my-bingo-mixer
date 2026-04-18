@@ -1,0 +1,6 @@
+{
+  "name": "Stop Test Gate",
+  "on": "stop",
+  "run": "npm test",
+  "blockOnFailure": true
+}

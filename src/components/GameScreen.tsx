@@ -21,7 +21,7 @@ export function GameScreen({
       <div className="flex items-center justify-between gap-4 rounded-3xl border border-border bg-surface-strong/90 px-4 py-3 text-sm text-text-muted shadow-[inset_0_0_0_1px_rgba(255,255,255,0.03)]">
         <button
           onClick={onReset}
-          className="rounded-2xl border border-[#4d7fb4]/30 bg-[#0f1c32] px-3 py-2 text-text transition hover:border-neon-blue/70 hover:text-neon-blue"
+          className="rounded-2xl border border-[rgba(116,214,255,0.16)] bg-transparent px-4 py-2 text-sm font-medium text-text transition duration-200 hover:border-neon-blue/40 hover:text-neon-blue hover:bg-[#0f1c32]"
         >
           ← Reset
         </button>
